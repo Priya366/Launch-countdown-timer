@@ -31,13 +31,14 @@ Users should be able to:
 ### Screenshot
 
 
+![Screenshot 2022-03-31 at 22-03-50 Launch CountDown Timer](https://user-images.githubusercontent.com/96676832/161105713-05d51333-2314-469d-ae07-e878b1e42153.png)
 
 
 
 ### Links
 
-- Solution URL:(https://your-solution-url.com)
-- Live Site URL:(https://your-live-site-url.com)
+- Solution URL:(https://github.com/Priya366/Launch-countdown-timer)
+- Live Site URL:(https://launch-countdown-t.netlify.app/)
 
 ## My process
 
