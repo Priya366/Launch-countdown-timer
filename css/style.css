@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --Grayish-blue: hsl(237, 18%, 59%);
+    --Soft-red: hsl(345, 95%, 68%);
+    --White: hsl(0, 0%, 100%);
+    --Dark-desaturated-blue: hsl(236, 21%, 26%);
+    --Very-dark-blue: hsl(235, 16%, 14%);
+    --Very-dark-blue-black: hsl(234, 17%, 12%);
+    --fs-body: 0.875em;
+    --ff-primary: 'Red Hat Text', sans-serif;
+    --ff-weight: 700;
+}
+
+
+/* TYPOGRAPHY  */
+
+h1,
+h2,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 2.5em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 5rem;
+    color: var(--Soft-red);
+}
+
+.flex-child p {
+    color: var(--Grayish-blue);
+    letter-spacing: 2px;
+}
+
+
+/* GENERAL STYLING  */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    font-weight: var(--ff-weight);
+    min-height: 100vh;
+    background-color: var(--Very-dark-blue-black);
+    color: var(--White);
+    background-image: url(/images/bg-stars.svg), url(/images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center, bottom center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-4 {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Main styling  */
+
+.container {
+    max-width: 98%;
+    width: 750px;
+    margin-top: 90px;
+}
+
+.flex-child {
+    flex-direction: column;
+    gap: 2em;
+}
+
+.box {
+    background-color: var(--Dark-desaturated-blue);
+    width: 159px;
+    height: 139px;
+    box-shadow: 0 9px 0 0 hsla(0, 0%, 0%, 0.3);
+    border-radius: 0.35rem;
+}
+
+
+/* Footer styling  */
+
+.social-links {
+    position: absolute;
+    bottom: 4%;
+    gap: 2em;
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+}
+
+.fab {
+    font-size: 1.4rem;
+    color: var(--Grayish-blue);
+}
+
+.fab:hover {
+    color: var(--Soft-red);
+}
+
+@media (max-width: 700px) {
+    .flex-child {
+        gap: 1.5em;
+    }
+    .box {
+        width: 60px;
+        height: 60px;
+        padding: 0.8em;
+    }
+    .box h2 {
+        font-size: 1.5rem;
+    }
+}
