@@ -61,4 +61,4 @@ I googled some questions to find proper solutions like how to convert millisecon
 ## Author
 
 - Frontend Mentor - [@Priya366](https://www.frontendmentor.io/profile/Priya366)
-- Twitter - [@Priyaga89393017](https://twitter.com/Priyaga89393017)
+- Twitter - [@priya_garg2](https://twitter.com/priya_garg2)
