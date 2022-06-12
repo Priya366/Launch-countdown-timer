@@ -8,7 +8,7 @@ function countdown() {
     let today = new Date();
 
     // Set launch date 
-    let launchDate = new Date("December 31, 2022");
+    let launchDate = new Date("November 31, 2022");
 
     // Difference between two dates in milliseconds
     let difference = launchDate.getTime() - today.getTime();
